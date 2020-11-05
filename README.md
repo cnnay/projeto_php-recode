@@ -1,5 +1,5 @@
 # projeto_php-recode
-iniciando com PHP - bootcamp recode-pro
+Iniciando um novo projeto com PHP - bootcamp Recode-pro2020
 
 
 <h3>Fluxo para rodar o Projeto</h3>
