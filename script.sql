@@ -1,6 +1,5 @@
 CREATE DATABASE `userdb`;
 
-
 CREATE TABLE `produto`; (
 	`id` INT(4) NOT NULL AUTO_INCREMENT,
 	`descricao` VARCHAR(200) NULL DEFAULT NULL COLLATE 'latin1_swedish_ci',
