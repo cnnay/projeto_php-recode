@@ -1,0 +1,14 @@
+CREATE DATABASE `userdb`;
+
+
+CREATE TABLE `produto`; (
+	`id` INT(4) NOT NULL AUTO_INCREMENT,
+	`descricao` VARCHAR(200) NULL DEFAULT NULL COLLATE 'latin1_swedish_ci',
+	`nome` VARCHAR(50) NULL DEFAULT NULL COLLATE 'latin1_swedish_ci',
+	`preco` DOUBLE(5,2) NULL DEFAULT NULL,
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=15
+;
